@@ -9,4 +9,13 @@ public class Estante {
     public Estante() {
         this.libros = new ArrayList<>();
     }
+
+    // Getters & setters
+    public List<Libro> getLibros() {
+        return libros;
+    }
+
+    public void setLibros(List<Libro> libros) {
+        this.libros = libros;
+    }
 }
