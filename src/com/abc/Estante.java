@@ -34,4 +34,14 @@ public class Estante {
             System.out.println("--------------------");
         }
     }
+
+    // Busca un libro en un estante por su ISBN
+    public Libro buscarLibro(int ISBN) {
+        for (Libro libro : getLibros()) {
+            if (libro.getISBN() == ISBN) {
+                return libro;
+            }
+        }
+        return null;
+    }
 }
