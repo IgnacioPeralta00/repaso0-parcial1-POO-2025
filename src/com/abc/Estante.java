@@ -23,7 +23,7 @@ public class Estante {
     // Metodo que agrega un libro a un estante
     public void agregarLibro(Libro libro) {
         getLibros().add(libro); // Obtenemos la lista y agregamos el libro
-        System.out.println("Libro" + libro.getTitulo() + "agregado");
+        System.out.println("Libro: '" + libro.getTitulo() + "' agregado");
     }
 
     // Metodo que muestra los libros en el estante
